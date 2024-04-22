@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dropshipping Store</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Dropshipping Store</h1>
+    <a href="cart.html" class="goToCartButton">Go to Cart</a>
+    <button class="signUpButton" onclick="redirectToSignUp()">Sign Up</button>
+    <button class="signInButton" onclick="redirectToSignIn()">Sign In</button>
+  </header>
+
+  <a href="./xml/employee.xml">Here</a>
+
+  <div class="container">
+    <div class="product">
+      <h2>Men's Running shoes</h2>
+      <img src="./images/product1.jpeg" alt="Product 1">
+      <p>Adidas</p>
+      <p class="priceOfItem">Rs. 10,000</p>
+      <button class="addToCartButton" onclick="addToCart(product1)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <h2>Men's Sneakers</h2>
+      <img src="./images/product2.jpeg" alt="Product 2">
+      <p>Nike</p>
+      <p class="priceOfItem">Rs. 8,000</p>
+      <button class="addToCartButton" onclick="addToCart(product2)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <h2>Men's Sports Shoes</h2>
+        <img src="./images/product3.jpeg" alt="Product 3">
+        <p>Nike</p>
+        <p class="priceOfItem">Rs. 6,000</p>
+        <button class="addToCartButton" onclick="addToCart(product3)">Add to Cart</button>
+    </div>
+    
+    <div class="product">
+        <h2>Gym Shoes</h2>
+        <img src="./images/product4.jpeg" alt="Product 4  ">
+        <p>Puma</p>
+        <p class="priceOfItem">Rs. 14,000</p>
+        <button class="addToCartButton" onclick="addToCart(product4)">Add to Cart</button>
+    </div>
+
+    <div class="cart" id="cart"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
